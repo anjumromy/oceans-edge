@@ -1,0 +1,149 @@
+font-family: sans-serif; ----- curfe hobena
+background position: top center;
+background position: top right;
+
+
+------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Ceans Edge</title>
+	<link rel="stylesheet"  href="css/style.css"> 
+</head>
+<body>
+	<!-- header start -->
+	<header>
+		<div class="wrapper">
+			<!-- logo -->
+		<div class="logo">
+				<img src="images/logo.jpg" alt="ceans edge" >
+			</a>
+		</div>
+		<!-- menu -->
+		<div class="menu">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">SOLUTIONS</a></li>
+				<li><a href="#">MOBILE APPLICATIONS</a></li>
+				<li><a href="#">CAREEERS</a></li>
+			</ul>
+		</div>
+	</div>
+	</header>
+	<!-- header end -->
+
+</body>
+</html>
+..................................................................
+/*header start*/
+header{
+	background-color: #121b2a;
+	padding: 10px 0;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 80%;	
+	overflow: hidden;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu {
+     width: 70%;
+     float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 15px;
+	display: block;
+	color: white;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078BD ;
+}
+/*header end*/
+------------------------------------------------------------------------
+<!-- banner start -->
+<section class="banner">
+	 <div class="wrapper">
+	 	<div class="b_content">
+	 	 <p>Delivering Mobile</p>
+	 	 <h1> Communication Solutions </h1>
+ 	 	 <p>Oceans Edge is a global provider of mobile communication solutions for government and commercial organizations </p>
+ 	 	<button>LEARN MORE <span>0</span></button>
+	 </div>
+	</div>
+</section>
+<!-- banner end -->
+.............................................................
+/*banner start*/
+.banner {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background position: center;
+}
+.b_content {
+	margin-top: 200px;
+	margin-bottom: 50px;
+	width: 45%;
+}
+.b_content p:first-child{
+	margin: 0;
+	font-size: 25px;
+	font-weight:400 ;
+	color: white;
+}
+.b_content h1{
+	margin: 0;
+	font-size: 35px;
+	color: #0078bd;
+	line-height: 60px;
+}
+.b_content p:nth-last-child(2){
+	margin: 0;
+	padding: 5px 0 20px;
+	color: white;
+	line-height: 1.6;
+}
+.b_content button{
+	border: none;
+	padding: 10PX 20PX;
+	font-size: 18PX;
+	margin-top: 20px;
+	font-weight: 800;
+	color: #0000009e;
+	border-radius: 20px;
+	background-color: white;
+	text-transform: uppercase;
+}
+.b_content button span{
+	background-color: #0078be;
+	padding: 5px 10px;
+	border-radius: 50%;
+	color: white;
+	margin-left: 10px;
+}
+/*banner end*/
+---------------------------------------------------------------------------
